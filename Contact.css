@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+/* Navigation Bar */
+nav{
+    background: #990073;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 90px;
+    font-weight: bold;
+}
+
+/* Contact */
+section.contact{
+    margin: 5vh 2vw 10vh 2vw;
+}
+h2.heading{
+    font-size: 5vh;
+    text-align: center;
+}
+form{
+    margin: 5vh 20vw 10vw 2vw;
+    /* text-align: center; */
+    /* border: 2px solid black;
+    padding: 0vh 0vw 0vh 0vw; */
+}
+textarea{
+    background-color: rgb(250, 238, 250);
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 0px 0px 15px 0px ;
+    align-items: center;
+}
+input[type="text"], input[type="email"], input[type="number"]{
+    border:none;
+    border-bottom:1px solid black;
+    background: rgb(250, 238, 250);
+    outline: none;
+    height: 5vh;
+    color: black;
+    font-size: 2vh;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 2px;
+}
+button[type="submit"]{
+    border: none;
+    width: 8vh;
+    height: 4vh;
+    background-color: #990073;
+    color: black;
+    font-size: 18px;
+    border-radius: 5px;
+}
+button[type="submit"]:hover{
+    cursor:pointer;
+    background-color: #1b9bff;
+    color: #000;
+    transition: .5s;
+}
+
+/* Footer */
+.footer{
+    background-color: #990073;
+    margin: 10vh 0vh 0vh 0vh;
+    padding: 0vh 0vh 0vh 0vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+section.logo{
+    margin: 10vh;
+}
+p#heading{
+    color: white;
+    font-size: 40px;
+    line-height: 20px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+p#content{
+    padding: 10px 10px;
+    color: white;
+    /* position: absolute;
+    top: 2px;
+    left: 2px; */
+}
+section.Quick_Links p{
+    font-size: 5vh;
+    color: white;
+    margin: 5vh 20vh 3vh 0vh;
+}
+section.Quick_Links li a{
+    color: white;
+    font-size: 3vh;
+    margin: 5vh 25vh 3vh 0vh;
+    padding: 1vh 0vh;
+}
+section.Quick_Links ul li a:hover{
+    color: #1b9bff;
+    transition: .5s;
+}
+section.Subject_Links p{
+    font-size: 5vh;
+    color: white;
+    margin: 5vh 25vh 3vh 0vh;
+}
+section.Subject_Links li a{
+    color: white;
+    font-size: 3vh;
+    margin: 1vh 25vh 0vh 0vh;
+    padding: 1vh 0vh;
+}
+section.Subject_Links ul li a:hover{
+    color: #1b9bff;
+    transition: .5s;
+}
+p#contact{
+    font-size: 5vh;
+    color: white;
+    margin: 4vh 0vh 0vh 0vh;
+}
+section.Contact_us p,pre{
+    color: white;
+    font-size: 3vh;
+    margin: 1vh 0vh -2vh 0vh;
+    padding: 1vh 0vh;
+}
+section.Subject_Links p:hover{
+    color: #1b9bff;
+    transition: .5s;
+}
+p#Copyright{
+    color: white;
+    border: 2px solid balck;
+    /* margin:5vh 90vh; */
+    padding: 3% 30%;
+    text-align: center;
+}

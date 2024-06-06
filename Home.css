@@ -1,0 +1,383 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+nav{
+    background: #990073;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 90px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 1vh 2vh;
+    border-radius:3px;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+
+/* Background Images */
+section.img{
+    background-image: url(Home_Images.jpg);
+    background-size: cover;
+    height:80vh;
+    width: 100vw;
+    box-shadow: 0 4px 8px 5px rgba(7, 1, 1, 0.2), 0 6px 20px 0 rgba(1, 0, 0, 0.19);
+}
+label.box{
+    height: 50px;
+    width: 137px;
+    font-size: 2vh;
+    display: inline-block;
+    /* border: 2px solid #990073; */
+    border-radius: 10px;
+    position: relative;
+    top: 55vh;
+    left: 45vw;
+    background-color: #990073;
+}
+div.getstarted{
+    font-size: 27px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 7px;
+    border-radius: 10px;
+    color: white;
+}
+div.getstarted:hover{
+    height: 50px;
+    width: 137px;
+    background: #1b9bff;
+    transition: .5s;  
+}
+
+/* Steps to participate in Quizz */
+div.guidance{
+    margin: 2em;
+}
+div#steps{
+    margin: 10vh 0vh 0vh 2vh;
+    font-size: 5vh;
+    /* color: #990073; */
+}
+div#step{
+    margin: 5vh 0vh 0vh 2em;
+}
+
+/* Instruction of quizz */
+div.instruction{
+    margin: 2em;
+}
+div#steps{
+    margin: 10vh 0vh 0vh 2vh;
+    font-size: 5vh;
+}
+p#point{
+    margin: 5vh 0vh 0vh 2em;
+}
+
+/* About */
+
+    section#about{
+        margin: 2em;
+    }
+    div#about{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0vh 0vw 15vh 0vw;
+    }
+    p#para{
+        width: 40vw;
+        margin: 5vh 1vh 2vh 0em;
+        line-height: 20px;
+    }
+    div#image{
+        margin: 5vh -3vh 0vh 0vh;
+        background-image: url(About.jpg);
+        background-repeat: no-repeat;
+        background-size: 46vw 50vh;
+        box-shadow: 0 4px 8px 5px rgba(7, 1, 1, 0.2), 0 6px 20px 0 rgba(1, 0, 0, 0.19);
+        /* border: 2px solid black; */
+        height: 50vh;
+        width: 46vw;
+        padding: 0px ;
+    }
+    div#Founder{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0vh 0vw 1vh 0vw;
+        border: 1px solid black;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px 5px rgba(7, 1, 1, 0.2), 0 6px 20px 0 rgba(1, 0, 0, 0.19);
+    }
+    div#rajveer{
+        margin: 5vh 2vh 5vh 2vh;
+        height: 350px;
+        width: 300px;
+        border: 0px solid black;
+        border-radius: 20px;
+        background-image: url(Rajveer.jpg);
+        background-repeat: no-repeat;
+        background-size: 300px 300px;
+        box-shadow: 0 4px 8px 0 rgba(6, 0, 0, 0.2), 0 6px 20px 0 rgba(1, 0, 0, 0.19);
+    }
+    div#rajveer p{
+        text-align: center;
+        font-size: 20px;
+        color:black;
+        position: relative;
+        top: 300px; 
+        /* left: 40px; */
+    }
+    p#founder{
+        width: 150vh;
+        /* height: 101vh; */
+        margin: 5vh 1vh 0vh 1vh;
+        line-height: 5vh;
+    }
+
+/* Contact */
+h2.heading{
+    font-size: 5vh;
+    text-align: center;
+}
+form{
+    margin: 5vh 20vw 10vw 20vw;
+    text-align: center;
+    /* border: 2px solid black;
+    padding: 0vh 0vw 0vh 0vw; */
+}
+textarea{
+    background-color: rgb(250, 238, 250);
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 0px 0px 15px 0px ;
+    align-items: center;
+}
+input[type="text"], input[type="email"], input[type="number"]{
+    border:none;
+    border-bottom:1px solid black;
+    background: rgb(250, 238, 250);
+    outline: none;
+    height: 5vh;
+    color: black;
+    font-size: 2vh;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+button[type="submit"]{
+    border: none;
+    width: 8vh;
+    height: 4vh;
+    background-color: #990073;
+    color: black;
+    font-size: 18px;
+    border-radius: 5px;
+}
+button[type="submit"]:hover{
+    cursor:pointer;
+    background-color: #1b9bff;
+    color: #000;
+    transition: .5s;
+}
+/* Lists of Subject */
+div.subject{
+    /* margin: 10vh 7vh; */
+    display: flex;
+    flex-wrap: wrap;
+} 
+div#subjects{
+    margin: 10vh 0vh 0vh 7vh;
+    font-size: 5vh;
+}
+div#mathematics{
+    margin: 5vh 0vh 0vh 7vh;
+    height: 350px;
+    width: 300px;
+    /* border: 2px solid black; */
+    background-image: url(Mathematics.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    box-shadow: 0 4px 8px 0 rgba(7, 1, 1, 0.2), 0 6px 20px 0 rgba(1, 0, 0, 0.19);
+}
+div#mathematics p{
+    font-size: 5vh;
+    color:black;
+    position: relative;
+    top: 300px; 
+    left: 40px;
+}
+div#english{
+    margin: 5vh 0vh 0vh 7vh;
+    height: 350px;
+    width: 300px;
+    /* border: 2px solid black; */
+    background-image: url(English.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    box-shadow: 0 4px 8px 0 rgba(7, 1, 1, 0.2), 0 6px 20px 0 rgba(1, 0, 0, 0.19);
+}
+div#english p{
+    font-size: 5vh;
+    color:black;
+    position: relative;
+    top: 300px; 
+    left: 90px;
+}
+div#science{
+    margin: 5vh 0vh 0vh 7vh;
+    height: 350px;
+    width: 300px;
+    /* border: 2px solid black; */
+    background-image: url(Science.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    box-shadow: 0 4px 8px 0 rgba(7, 1, 1, 0.2), 0 6px 20px 0 rgba(1, 0, 0, 0.19);
+}
+div#science p{
+    font-size: 5vh;
+    color:black;
+    position: relative;
+    top: 300px; 
+    left: 90px;
+}
+div#general_knowledge{
+    margin: 5vh 0vh 0vh 7vh;
+    height: 350px;
+    width: 300px;
+    /* border: 2px solid black; */
+    background-image: url(G.K.png);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    box-shadow: 0 4px 8px 0 rgba(7, 1, 1, 0.2), 0 6px 20px 0 rgba(1, 0, 0, 0.19);
+}
+div#general_knowledge p{
+    font-size: 4vh;
+    color:black;
+    position: relative;
+    top: 300px; 
+    left: 10px;
+    /* text-align:justify; */
+}
+div#aptitude{
+    margin: 5vh 0vh 0vh 7vh;
+    height: 350px;
+    width: 300px;
+    /* border: 2px solid black; */
+    background-image: url(Aptitude.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    box-shadow: 0 4px 8px 0 rgba(7, 1, 1, 0.2), 0 6px 20px 0 rgba(1, 0, 0, 0.19);
+}
+div#aptitude p{
+    font-size: 5vh;
+    color:black;
+    position: relative;
+    top: 300px; 
+    left: 90px;
+}
+
+/* Footer Part */
+.footer{
+    background-color: #990073;
+    margin: 10vh 0vh 0vh 0vh;
+    padding: 0vh 0vh 0vh 0vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+section.logo{
+    margin: 10vh;
+}
+p#heading{
+    color: white;
+    font-size: 40px;
+    line-height: 20px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+p#content{
+    padding: 10px 10px;
+    color: white;
+    /* position: absolute;
+    top: 2px;
+    left: 2px; */
+}
+section.Quick_Links p{
+    font-size: 5vh;
+    color: white;
+    margin: 5vh 20vh 3vh 0vh;
+}
+section.Quick_Links li a{
+    color: white;
+    font-size: 3vh;
+    margin: 5vh 25vh 3vh 0vh;
+    padding: 1vh 0vh;
+}
+section.Quick_Links ul li a:hover{
+    color: #1b9bff;
+    transition: .5s;
+}
+section.Subject_Links p{
+    font-size: 5vh;
+    color: white;
+    margin: 5vh 25vh 3vh 0vh;
+}
+section.Subject_Links li a{
+    color: white;
+    font-size: 3vh;
+    margin: 1vh 25vh 0vh 0vh;
+    padding: 1vh 0vh;
+}
+section.Subject_Links ul li a:hover{
+    color: #1b9bff;
+    transition: .5s;
+}
+p#contact{
+    font-size: 5vh;
+    color: white;
+    margin: 4vh 0vh 0vh 0vh;
+}
+section.Contact_us p,pre{
+    color: white;
+    font-size: 3vh;
+    margin: 1vh 0vh -2vh 0vh;
+    padding: 1vh 0vh;
+}
+section.Subject_Links p:hover{
+    color: #1b9bff;
+    transition: .5s;
+}
+p#Copyright{
+    color: white;
+    border: 2px solid balck;
+    /* margin:5vh 90vh; */
+    padding: 3% 30%;
+    text-align: center;
+}
